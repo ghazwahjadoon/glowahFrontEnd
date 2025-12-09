@@ -1,0 +1,81 @@
+
+.about-header {
+  background-color: #ffe4ec;
+}
+.about-title {
+  font-family: "Bradley Hand ITC", cursive;
+  font-weight: bold;
+  color: #b30059;
+  letter-spacing: 1px;
+}
+.about-divider {
+  width: 120px;
+  margin: 10px auto;
+  border: 2px solid #b30059;
+  border-radius: 2px;
+}
+
+
+.about-text {
+  font-family: "Times New Roman", serif;
+  font-size: 17px;
+  line-height: 1.7;
+  text-align: justify;
+  color: #333;
+}
+.about-image {
+  max-height: 300px;
+
+}
+.about-image:hover {
+  transform: scale(1.05);
+}
+
+
+.about-vision {
+  background-color: #fff0f5;
+  padding: 40px;
+}
+.vision-title {
+  font-family: "Bradley Hand ITC", cursive;
+  color: #b30059;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.vision-text {
+  font-size: 15px;
+  line-height: 1.8;
+  color: #444;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+
+.about-contact {
+  background-color: #ffcce0;
+}
+.contact-title {
+  font-family: "Bradley Hand ITC", cursive;
+  color: #b30059;
+  font-weight: bold;
+  font-size: 26px;
+  margin-bottom: 15px;
+}
+.contact-text {
+  font-size: 16px;
+  max-width: 800px;
+  margin: 0 auto 30px;
+  color: #333;
+}
+.contact-icons {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  font-size: 28px;
+  color: #b30059;
+  transition: transform 0.3s, color 0.3s;
+}
+.contact-icons svg:hover {
+  transform: scale(1.2);
+  color: #ff66a3;
+}
